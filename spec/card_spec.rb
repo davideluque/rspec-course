@@ -1,6 +1,10 @@
-# The implementation of the card class will be 
-# in this file for simplicity.
+# The implementation of the card class will be in this file for simplicity.
 class Card
+  attr_reader :type
+
+  def initialize(type)
+    @type = type
+  end
 end
 
 
